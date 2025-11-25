@@ -212,7 +212,6 @@
 /* section new product start  */
 .new-details{
     width: 100%;
-    /* height: 90vh; */
     padding: 120px;
     background-color: #FBF0F4;
 }
@@ -251,7 +250,7 @@
 /* media start  */
 @media only screen and (min-width: 426px) and (max-width: 768px){
     .new-details{
-        /* font-size: 75%; */
+        
         padding: 0px;
     }
     .new-details .container{
@@ -297,7 +296,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.product h1{
+.product h1{ 
     text-align: center;
     letter-spacing: 1px;
 }
@@ -344,7 +343,6 @@
 }
 .product .card img:hover{
     transform: scale(1.1);
-    /* filter:drop-shadow(2px 4px 6px black) ; */
 }
 .product .card .icon{
     color: gold;
@@ -372,7 +370,6 @@
         flex-direction: column;
         justify-items: center;
         text-align: center;
-        /* padding: 70px 20px!important; */
     }
     .product .column{
         flex-direction: column-reverse !important;
@@ -395,8 +392,7 @@
     }
 }
 /* media end  */
-/* section product end */
-/* section Reting strat  */
+
 .Reting{
     width: 100%;
     font-family:  "Fredoka", sans-serif;
@@ -503,11 +499,9 @@
   
 
 /* media end */
-/* section Reting end  */
-/* section mobile start  */
 .mobile{
     width: 100%;
-    /* height: 90vh; */
+
     padding: 100px 100px;
     background-color: #FBF0F4;
     margin-top: 100px;
@@ -524,14 +518,13 @@
 .mobile .img1 img{
     display: flex;
     justify-content: center;
-    /* width: 100%; */
+    
     max-height: 450px;
     object-fit: cover;
 }
 
 .mobile .container .content button{
     width: 150px;
-    /* background-color: #D31066; */
     border:none;
     border-radius: 3px;
     color: #ffffff;
@@ -662,13 +655,11 @@
 
 #blogs3{
     background-color:#E1F0DA ;
-    /* height: 600px; */
 }
 #blogs3 #blog-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 600px; */
 }
 
 .blog-cnt .container{
